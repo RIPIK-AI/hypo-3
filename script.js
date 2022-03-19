@@ -23,7 +23,7 @@ function showInfo() {
 
 	Target_hypo_Input = document.getElementById('prevTargetHypo').value;
 	target_loose_pulp_viscosity = document.getElementById('targetLoosePulpViscosity').value; //450 by default
-	var addition_total = 1*hypo_add_prev1 + 1.5*secondary_hypo_add_prev1;
+	var addition_total = 1*hypo_add_prev1 + 1*secondary_hypo_add_prev1;
 	var sum = hypo_visc_prev1*1 + 1*hypo_visc_prev2;
 	var diff = sum -1000;
 	var final = 0.05*diff;
